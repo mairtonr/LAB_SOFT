@@ -59,15 +59,3 @@ input{
     color:#fff;
 
 }
-
-.link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-}
-
-a{
-    color: #FC7300;   
-
-}
