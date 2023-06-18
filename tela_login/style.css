@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 body{
@@ -21,7 +22,6 @@ body{
 
 h1{
     margin-bottom: 20%;
-    font-family: 'JetBrains Mono', monospace;
     font-size: 3rem;
     color: #fff;
 }
@@ -35,7 +35,16 @@ h1{
 
 .home * {
     margin:0.5rem;
+}
 
+#saida p{
+    color: #fff;
+    font-size: .8rem;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 input{

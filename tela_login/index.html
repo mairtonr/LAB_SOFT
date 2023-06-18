@@ -11,13 +11,16 @@
     <div id="conteudo">
     <h1>MTC Program</h1>
     <div class="home">
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="Senha">
-        <div class="button">
-            <a href="/tabela_de_produtos/index.html"><button class="btn">Fazer login</button></a>
+        <div id="saida"></div>
+        <form>
+        <input type="email"  id="email" placeholder="User">
+        <input type="password" id="senha" placeholder="Senha">
+        <div class="button" id="btn1">
+            <button onclick="verificarVazio()" class="btn">Fazer login</button>
         </div>
     </div>
 </div>
-
+</form>
+    <script src="script.js"></script>
 </body>
 </html>

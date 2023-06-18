@@ -65,4 +65,11 @@ th {
   background-color: #7B7E80;
   height: 10rem;
   color: #FFF;
+  border: none;
+  border-radius: .9rem;
+}
+
+.btn_right button:hover{
+  transition: .4s;
+  scale: 1.05;
 }
